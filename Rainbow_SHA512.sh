@@ -4,6 +4,6 @@ while read line
 
 do
 
-printf $line | shasum -a 512 | tr -d '-'
+printf $line | shasum -a 512 | tr -d '-' | tr -d ' '
 
 done
