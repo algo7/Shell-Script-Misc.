@@ -2,7 +2,6 @@
 Shell Scripts for Miscellaneous Purposes
 
 ## Usage:
-
 cat infile | ./Rainbow_MD5 > outfile
 
 cat infile | ./Rainbow_SHA1(256,384,512) > outfile
